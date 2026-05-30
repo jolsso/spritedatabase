@@ -157,6 +157,12 @@ The analyzer builds a SQLite catalog (`catalog.db`) with detailed metadata for e
 | `layer` | str | *(Optional)* Rendering layer hint (e.g., `foreground`, `background`) |
 | `passable` | bool | *(Optional)* Whether a game character can walk through this tile |
 
+### Catalog example
+
+The committed `catalog.db` contains all indexed tiles. Here is an example view of the database:
+
+![Catalog database example](docs/database_example.png)
+
 ### Example: Free Sample Tile
 
 The repository includes `data/free_sample.png` as a reference example:
